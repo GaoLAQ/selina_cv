@@ -2,7 +2,7 @@
 
 # Black-Scholes Model for FTSE 100 Options Pricing - Research Project
 
-# 第一阶段：理论基础与公式推导（1-2周）
+# 第一阶段：理论基础与公式推导
 
 ## 1. Black-Scholes模型的基本假设
 
@@ -60,7 +60,7 @@
    ```math
    \frac{\partial V}{\partial S} - rV = 0
    ```
-# 第二阶段：编程实现（2-3周）
+# 第二阶段：编程实现
 / React 建立
 / Python 建立
 / Database建立
@@ -97,7 +97,7 @@ function App() {
     d2 = d1 - sigma*np.sqrt(T)
     return S*norm.cdf(d1) - K*np.exp(-r*T)*norm.cdf(d2)
   ```
-# 第三阶段：实证分析（2周）
+# 第三阶段：实证分析
 
 ### 1. 分析框架
 
